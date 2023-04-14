@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>planify13</title>
+    <link rel="stylesheet" href="CRUD.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<header>
+    <h1>Plan your tasks</h1>
+</header>
+<body>
+    
+    <!-- <button onclick="location.reload()">Reload</button> -->
+    <div id="input">
+
+        <div>
+            <h2><u>ADD YOUR TASK BELOW...</u></h2>
+            <h2> Task : <input type="text" id="name" placeholder="Enter task..."></h2>
+            <input class="btn" type="submit" id="add" value="Submit" onclick="addData()">
+        </div>
+        <br>
+        <div id="msg"></div>
+        <br>
+        <hr>
+    </div>
+    <div id="output">
+        <h2><u>ADDED TASKS...</u></h2>
+        <input class="btn" type="button" value="Clear Data" onclick="localStorage.clear(), location.reload()">
+        <br><br>
+        
+        <!-- <ol id="box"></ol> -->
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sr.no</th>
+                    <th>Task</th>
+                    <th colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody id="root">
+    
+            </tbody>
+        </table>
+    </div>
+    <script src="CRUD.js"></script>
+</body>
+</html>

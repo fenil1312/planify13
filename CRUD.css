@@ -1,0 +1,123 @@
+body{
+    margin: auto;
+    background-color: rgb(210, 244, 244);
+}
+
+header{
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(221, 172, 124);
+    font-family: cursive;
+    font-size: x-large;
+}
+
+#name{
+    width: 15%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(233, 224, 224);
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#msg{
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#input{
+    text-align: center;
+}
+
+#output{
+    text-align: center;
+}
+
+table{
+    background-color: rgb(185, 223, 244);
+    border-collapse: collapse;
+    width: 50%;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 2px;
+}
+
+thead{
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 136, 0);
+}
+
+th,td{
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(234, 206, 199);
+}
+
+.btn{
+    padding: 10px;
+    background-color: rgb(175, 161, 223);
+    font-size:larger;
+    border-radius: 15px;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(114, 77, 238);
+    color: rgb(255, 255, 255);
+}
+
+button{
+    display: flex;
+    margin: 8px 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(232, 62, 62);
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.data{
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: rgb(67, 67, 230);
+}
+
+.data:hover{
+    /* background-color: rgb(130, 130, 223); */
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.del{
+    background-color: rgb(212, 53, 53);
+}
+
+.del:hover{
+    /* background-color: rgb(210, 104, 104); */
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
